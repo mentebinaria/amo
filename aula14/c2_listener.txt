@@ -1,0 +1,7 @@
+[MeuC2]
+Enabled: True
+Port: 80
+Protocol: TCP
+Listener: RawListener
+ProcessWhiteList: 033.exe
+ExecuteCmd:C:\tools\x64dbg\release\x32\x32dbg.exe -p {pid}
